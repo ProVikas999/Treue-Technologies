@@ -1,0 +1,62 @@
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 400px;
+            margin: 100px auto;
+            text-align: center;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            margin-top: 20px;
+            font-size: px;
+            color: white;
+        }
+        input[type="text"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px;
+            font-size: 24px;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 20px;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            font-size: 24px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .arithbutton{
+            background-color: lightgrey ;
+            color: black;
+        }
+         .arithbutton:hover{
+            background-color: grey ;
+            color: white;
+        }
+        .primarybutton{
+            background-color: orange ;
+        }
+         .primarybutton:hover {
+            color: black;
+
+        }
